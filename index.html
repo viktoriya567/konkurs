@@ -1,0 +1,323 @@
+﻿<?php 
+    require_once 'database.php';
+    require_once 'fun.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Виртуальный музей</title>
+    <link rel="stylesheet" href="./styiles5.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="icon" type="image" href="college.jpg">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script  src="script.js"></script>
+
+
+</head>
+<body>
+    <div class="header">
+        <div class="container8" href="#"><img src="логотип синий.png" alt="Логотип"></div>
+        <div class="wrapper1">
+            <div class="navigation1">
+                <div class="container1" href="#"><img src="логотип синий.png" alt="Логотип"></div>
+                <ul class="nav">
+                    <li><a href="news.html">Новости</a></li>
+                    <!-- <li><a href="map.html">Карта сайта</a></li> -->
+                    <li><a href="info.html">О нас</a></li>
+                    <li><a href="#">Версия для слабовидящих</a></li>
+                </ul> 
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="wrapper">
+            <h1 class="title">Добро пожаловать!</h1>
+            <p class="description">Это виртуальный музей "ОГАПОУ Валуйский колледж". Наше учебное заведение является одним из старейших в городе и области. Сегодня мы приглашаем вас совершить виртуальную экскурсию по музею педагогического отделения нашего колледжа.</p>
+            <a class="btn1" href="virtyal.html">Подробнее</a>
+            <a class="container2"><img src="cldg.png" alt="Колледж"></a>
+        </div>
+    </div>
+    <div class="page">
+        <div class="wrapper">
+            <div class="s0">
+            <div class="center">
+                <h2 class="h2">🏛️ Разделы музея 🏛️</h2>
+                <p>Музей-это место, где встречаются настоящее и прошлое, здесь ощущается, как дух ушедших времен наполняет нас</p>
+            </div>
+            <ul class="menu">
+                <li>
+		<input id="layout-single" type="radio" name="layout" checked>
+		<label for="layout-single" class="btn10">Выпускники педучилища</label>
+		</li>
+                <li>
+		<input id="layout-column" type="radio" name="layout" >
+		<label for="layout-column" class="btn20">Наши поэты</label>
+		</li>
+		<li>
+		<input id="layout-card" type="radio" name="layout" >
+		<label for="layout-card" class="btn30">Педагогические курсы</label>
+		</li>
+		<li>
+		<input id="layout-fonts" type="radio" name="layout" >
+		<label for="layout-fonts" class="btn40">Войны в истории колледжа</label>
+		</li>
+            </ul>
+            <div class="first_div">
+            <div class="box">
+                <a href="#/" style=" text-decoration: none" class="box-item">
+                    	<div class="box-text" >
+                        	<h3>1<br>&mdash;<br>1949</h3>
+                        	<p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+			             </div>
+		        </a>
+                <div class="box-item">
+                    <div class="box-text">
+                        <h3>1950<br>&mdash;<br>1989</h3>
+                        <p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+                    </div>
+                </div>
+                <div class="box-item">
+                    <div class="box-text">
+                        <h3>1990<br>&mdash;<br>2024</h3>
+                        <p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="second_div">
+            <div class="box">
+                <div class="box-item">
+                    	<div class="box-text">
+                        	<h3>2<br>&mdash;<br>1949</h3>
+                        	<p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+			             </div>
+		        </div>
+                <div class="box-item">
+                    <div class="box-text">
+                        <h3>1950<br>&mdash;<br>1989</h3>
+                        <p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+                    </div>
+                </div>
+                <div class="box-item">
+                    <div class="box-text">
+                        <h3>1990<br>&mdash;<br>2024</h3>
+                        <p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="third_div">
+            <div class="box">
+                <div class="box-item">
+                    	<div class="box-text">
+                        	<h3>3<br>&mdash;<br>1949</h3>
+                        	<p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+			             </div>
+		        </div>
+                <div class="box-item">
+                    <div class="box-text">
+                        <h3>1950<br>&mdash;<br>1989</h3>
+                        <p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+                    </div>
+                </div>
+                <div class="box-item">
+                    <div class="box-text">
+                        <h3>1990<br>&mdash;<br>2024</h3>
+                        <p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="fourth_div">
+            <div class="box">
+                <div class="box-item">
+                    	<div class="box-text">
+                        	<h3>4<br>&mdash;<br>1949</h3>
+                        	<p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+			             </div>
+		        </div>
+                <div class="box-item">
+                    <div class="box-text">
+                        <h3>1950<br>&mdash;<br>1989</h3>
+                        <p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+                    </div>
+                </div>
+                <div class="box-item">
+                    <div class="box-text">
+                        <h3>1990<br>&mdash;<br>2024</h3>
+                        <p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+<div class="s1">
+    <div class="center">
+                <h2 class="h2">Разделы музея</h2>
+                <p>Музей-это место, где встречаются настоящее и прошлое, здесь ощущается, как дух ушедших времен наполняет нас</p>
+            </div>
+    <div class="m_t">Выпускники педучилища</div>
+    <div class="box">
+                <div class="box-item">
+                    	<div class="box-text">
+                        	<h3>1<br>&mdash;<br>1949</h3>
+                        	<p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+			             </div>
+		        </div>
+                <div class="box-item">
+                    <div class="box-text">
+                        <h3>1950<br>&mdash;<br>1989</h3>
+                        <p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+                    </div>
+                </div>
+                <div class="box-item">
+                    <div class="box-text">
+                        <h3>1990<br>&mdash;<br>2024</h3>
+                        <p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+                    </div>
+                </div>
+            </div>
+    <div class="m_t">Наши поэты</div>
+    <div class="box">
+                <div class="box-item">
+                    	<div class="box-text">
+                        	<h3>2<br>&mdash;<br>1949</h3>
+                        	<p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+			             </div>
+		        </div>
+                <div class="box-item">
+                    <div class="box-text">
+                        <h3>1950<br>&mdash;<br>1989</h3>
+                        <p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+                    </div>
+                </div>
+                <div class="box-item">
+                    <div class="box-text">
+                        <h3>1990<br>&mdash;<br>2024</h3>
+                        <p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+                    </div>
+                </div>
+            </div>
+    <div class="m_t">Педагогические курсы</div>
+    <div class="box">
+                <div class="box-item">
+                    	<div class="box-text">
+                        	<h3>3<br>&mdash;<br>1949</h3>
+                        	<p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+			             </div>
+		        </div>
+                <div class="box-item">
+                    <div class="box-text">
+                        <h3>1950<br>&mdash;<br>1989</h3>
+                        <p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+                    </div>
+                </div>
+                <div class="box-item">
+                    <div class="box-text">
+                        <h3>1990<br>&mdash;<br>2024</h3>
+                        <p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+                    </div>
+                </div>
+            </div>
+     <div class="m_t">Войны в истории колледжа</div>
+    <div class="box">
+                <div class="box-item">
+                    	<div class="box-text">
+                        	<h3>4<br>&mdash;<br>1949</h3>
+                        	<p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+			             </div>
+		        </div>
+                <div class="box-item">
+                    <div class="box-text">
+                        <h3>1950<br>&mdash;<br>1989</h3>
+                        <p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+                    </div>
+                </div>
+                <div class="box-item">
+                    <div class="box-text">
+                        <h3>1990<br>&mdash;<br>2024</h3>
+                        <p>Описание этого обьекта, но я пока что не придумала, поэтому оставлю на потом</p>
+                    </div>
+                </div>
+            </div>
+</div>
+    <p class="hi">Музей – это, в первую очередь, вы</p>
+    <div class="footer">
+        <div class="wrapper">
+            <p>  ОГАПОУ "Валуйский колледж" 2024</p>
+        </div>
+    </div>
+<!--Табличные кнопки -->
+<div class="chatbot__btn bounce-7">
+<div class="chatbot__tooltip d-none"></div>
+</div>
+<!-- FingerPrint JS -->
+<script src="fp2.js"></script>
+<!-- ChatBot JS -->
+<script src="chatbot2.js"></script>
+<script>
+// конфигурация чат-бота
+const configChatbot = {};
+// CSS-селектор кнопки, посредством которой будем вызывать окно диалога с чат-ботом
+configChatbot.btn = '.chatbot__btn';
+// ключ для хранения отпечатка браузера
+configChatbot.key = 'fingerprint';
+// реплики чат-бота
+configChatbot.replicas = { 
+bot: {
+    0: {
+      content: 'Привет! Я Вольт - бот поддержки сайта!', human: [0, 1, 2]
+    },
+    1: { content: 'Я тоже рад, как мне к Вам обращаться?', human: [3] },
+    2: { content: 'Как мне к Вам обращаться?', human: [3] },
+    3: { content: '{{name}}, что Вас интересует?', human: [4, 5, 6] },
+    4: { content: '{{name}}, без проблем, статья с навигацией скоро будет добавлена', human: [4] },
+    5: { content: "{{name}}, статья о разработчиках", human: [5] },
+    6: { content: '{{name}}, статья об организации', human: [6] }
+  },
+  human: {
+    0: { content: 'Рад с тобой познакомиться)', bot: 1 },
+    1: { content: 'Салют!', bot: 2 },
+    2: { content: 'Привет, Вольт!', bot: 2 },
+    3: { content: '', bot: 3, name: 'name' },
+    4: { content: 'Помоги мне с навигацией', bot: 4 },
+    5: { content: 'Хочу связаться с разработчиками сайта', bot: 5 },
+    6: { content: 'Расскажи об этой организации', bot: 6 }
+  }
+};
+// корневой элемент
+configChatbot.root = SimpleChatbot.createTemplate();
+// URL chatbot.php
+configChatbot.url = 'chatbot2.php';
+// создание SimpleChatbot
+let chatbot = new SimpleChatbot(configChatbot);
+// при клике по кнопке configChatbot.btn
+document.querySelector(configChatbot.btn).onclick = function (e) {
+this.classList.add('d-none');
+const $tooltip = this.querySelector('.chatbot__tooltip');
+if ($tooltip) {
+$tooltip.classList.add('d-none');
+}
+configChatbot.root.classList.toggle('chatbot_hidden');
+chatbot.init();
+};
+// добавление ключа для хранения отпечатка браузера в LocalStorage
+let fingerprint = localStorage.getItem(configChatbot.key);
+if (!fingerprint) {
+Fingerprint2.get(function (components) {
+fingerprint = Fingerprint2.x64hash128(components.map(function (pair) {
+return pair.value
+}).join(), 31)
+localStorage.setItem(configChatbot.key, fingerprint)
+});
+}
+</script>
+ <!--Чат-бот -->
+<!--Конечная часть -->
+</body>
+</html>

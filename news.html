@@ -1,0 +1,59 @@
+﻿<?php 
+    require_once 'database.php';
+    require_once 'fun.php';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Виртуальный музей</title>
+    <link rel="stylesheet" href="./styiles5.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="icon" type="image" href="college.jpg">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script  src="script.js"></script>
+
+
+</head>
+<body>
+    <div class="header">
+         <div class="container8" href="#"><img src="логотип синий.png" alt="Логотип"></div>
+        <div class="wrapper1">
+            <div class="navigation1">
+                <div class="container1" href="#"><img src="логотип синий.png" alt="Логотип"></div>
+                <ul class="nav">
+                    <li><a href="news.html">Новости</a></li>
+                    <li><a href="info.html">О нас</a></li>
+                    <li><a href="#">Версия для слабовидящих</a></li>
+                </ul> 
+            </div>
+        </div>
+    </div>
+    <div class="banner1">
+             <div class="s0"><h1 class="title1">НОВОСТИ 📰</h1></div>
+             <div class="s1"><h1 class="title1">НОВОСТИ</h1></div>
+    </div>
+        <div class="wrapper">
+            <a href="https://www.val-colleg.ru/novosti"><center> <img src="novost.jpg" ></center></a> 
+            <!-- <?php 
+        $posts = get_posts();
+    ?>
+    <?php foreach ($posts as $post): ?> -->
+    <div>
+         <!-- <p class="banner2">
+            <?=$post['title']?>
+        </p> 
+    </div>
+                <div class="ot">
+                    <?=$post['content']?>
+                </div>
+                <div class="container4">
+                <img src="<?=$post['image']?>" />
+                </div>
+    </div>-->
+    <a class="butt"  href="index.html" >Назад</a>
+    <?php endforeach; ?>
+</body>
+</html>
